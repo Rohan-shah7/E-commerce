@@ -21,10 +21,7 @@ A modern and responsive e-commerce website built using **React.js**, **Tailwind 
 - **React Router DOM** (Routing)
 - **Axios** (API requests)
 
-## 📸 Screenshots
 
-> *(Add screenshots of your homepage, product page, and cart page here)*
 
-## 📂 Project Structure
 
 
