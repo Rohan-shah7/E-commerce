@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import HomePage from "./pages/HomePage";
-import ErrorPage from "./Pages/ErrorPage";
+// import ErrorPage from "./Pages/ErrorPage";
 import { BrowserRouter, Route, Routes } from "react-router";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
@@ -21,7 +21,7 @@ export const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<ErrorPage />} />
+        {/* <Route path="*" element={<ErrorPage />} /> */}
         <Route path="/cart" element={<CartPage />} />
         <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/product/:id" element={<SingleProduct />} />
